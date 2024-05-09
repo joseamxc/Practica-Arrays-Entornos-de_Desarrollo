@@ -14,7 +14,6 @@ INDEX VERSION 1.134+C:\ProyectoArrays\.metadata\.plugins\org.eclipse.jdt.core
 1740945194.index
 3461147457.index
 3104498346.index
-534654838.index
 3490403569.index
 1683846389.index
 832263634.index
