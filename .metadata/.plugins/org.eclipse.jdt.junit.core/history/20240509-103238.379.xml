@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestMaximaNota" project="PracticaArrays" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Test.TestMaximaNota" time="0.006" displayname="TestMaximaNota" uniqueid="[engine:junit-vintage]/[runner:Test.TestMaximaNota]">
+    <testcase name="testMaximaNota" classname="Test.TestMaximaNota" time="0.006" displayname="testMaximaNota" uniqueid="[engine:junit-vintage]/[runner:Test.TestMaximaNota]/[test:testMaximaNota(Test.TestMaximaNota)]">
+      <error>java.lang.IllegalArgumentException: Los numeros deben estar entre el 1 y el 10&#13;
+	at util.MisArrays$MaximaNota.maximaNota(MisArrays.java:18)&#13;
+	at Test.TestMaximaNota.testMaximaNota(TestMaximaNota.java:15)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

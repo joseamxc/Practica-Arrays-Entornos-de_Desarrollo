@@ -1,0 +1,22 @@
+package Test;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import util.MisArrays.MaximaNota;
+
+public class TestMaximaNota {
+
+    @Test
+    public void testMaximaNota() {
+        assertEquals(10, MaximaNota.maximaNota(new int[] { 10, 5, 8, 6, 9 }));
+        assertEquals(8, MaximaNota.maximaNota(new int[] { 1, 2, 3, 4, 8 }));
+        assertEquals(0, MaximaNota.maximaNota(new int[] { 0, 0, 0, 0, 0 }));
+        assertEquals(1, MaximaNota.maximaNota(new int[] { 1, 1, 1, 1, 1 }));
+        assertEquals(-1, MaximaNota.maximaNota(null));
+        assertEquals(-1, MaximaNota.maximaNota(new int[] {}));
+        assertEquals(-1, MaximaNota.maximaNota(new int[] { -1, 1, 2, 3, 4 }));
+    }
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestMaximaNota" project="PracticaArrays" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Test.TestMaximaNota" time="0.012" displayname="TestMaximaNota" uniqueid="[engine:junit-vintage]/[runner:Test.TestMaximaNota]">
+    <testcase name="testMaximaNota" classname="Test.TestMaximaNota" time="0.012" displayname="testMaximaNota" uniqueid="[engine:junit-vintage]/[runner:Test.TestMaximaNota]/[test:testMaximaNota(Test.TestMaximaNota)]">
+      <error>java.lang.IllegalArgumentException: El array no puede ser nulo&#13;
+	at util.MisArrays$MaximaNota.maximaNota(MisArrays.java:9)&#13;
+	at Test.TestMaximaNota.testMaximaNota(TestMaximaNota.java:17)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

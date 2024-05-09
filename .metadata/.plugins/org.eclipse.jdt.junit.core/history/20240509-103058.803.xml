@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestMaximaNota" project="PracticaArrays" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="Test.TestMaximaNota" time="0.0" displayname="TestMaximaNota" uniqueid="[engine:junit-vintage]/[runner:Test.TestMaximaNota]">
+    <testcase name="testMaximaNota" classname="Test.TestMaximaNota" time="0.0" displayname="testMaximaNota" uniqueid="[engine:junit-vintage]/[runner:Test.TestMaximaNota]/[test:testMaximaNota(Test.TestMaximaNota)]"/>
+  </testsuite>
+</testrun>

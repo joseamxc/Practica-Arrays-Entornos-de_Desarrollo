@@ -1,0 +1,26 @@
+package util;
+
+public abstract class MisArrays {
+	public class MaximaNota {
+	    public static int maximaNota(int[] notas) {
+	        if (notas == null) {
+	            throw new IllegalArgumentException("Array cannot be null");
+	        }
+	        if (notas.length == 0) {
+	            throw new IllegalArgumentException("Array cannot be empty");
+	        }
+	        
+	        int max = notas[0];
+	        for (int nota : notas) {
+	            if (nota < 0 || nota > 10) {
+	                throw new IllegalArgumentException("Nota must be between 0 and 10");
+	            }
+	            if (nota > max) {
+	                max = nota;
+	            }
+	        }
+	        
+	        return max;
+	    }
+	}
+}

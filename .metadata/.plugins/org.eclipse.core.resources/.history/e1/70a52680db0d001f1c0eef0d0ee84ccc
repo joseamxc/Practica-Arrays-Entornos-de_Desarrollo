@@ -1,0 +1,21 @@
+package util;
+
+public abstract class MisArrays {
+	public class MediaNotas {
+	    public static float mediaNotas(int[] notas) {
+	        if (notas == null) {
+	            throw new IllegalArgumentException("Array cannot be null");
+	        }
+	        
+	        int sum = 0;
+	        for (int nota : notas) {
+	            if (nota < 0 || nota > 10) {
+	                throw new IllegalArgumentException("Nota must be between 0 and 10");
+	            }
+	            sum += nota;
+	        }
+	        
+	        return (float) sum / notas.length;
+	    }
+	}
+}
