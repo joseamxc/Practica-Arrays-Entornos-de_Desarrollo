@@ -1,0 +1,21 @@
+package Test;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class MediaNotasTest {
+
+    @Test
+    public void testMediaNotas() {
+        assertEquals(6, MediaNotas.mediaNotas(new int[] { 10, 5, 8, 6, 9 }), 0.01);
+        assertEquals(2, MediaNotas.mediaNotas(new int[] { 1, 2, 3, 4, 2 }), 0.01);
+        assertEquals(0, MediaNotas.mediaNotas(new int[] { 0, 0, 0, 0, 0 }), 0.01);
+        assertEquals(1, MediaNotas.mediaNotas(new int[] { 1, 1, 1, 1, 1 }), 0.01);
+        assertEquals(-1, MediaNotas.mediaNotas(null), 0.01);
+        assertEquals(-1, MediaNotas.mediaNotas(new int[] {}), 0.01);
+        assertEquals(3, MediaNotas.mediaNotas(new int[] { 1, 3, 5 }), 0.01);
+        assertEquals(4, MediaNotas.mediaNotas(new int[] { 1, 2, 3, 4, 5 }), 0.01);
+    }
+
+}
